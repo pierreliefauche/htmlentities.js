@@ -1,0 +1,39 @@
+{
+  "name": "htmlentities.js",
+  "preferGlobal": "false",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pierre-Élie Fauché",
+    "email": "github@pierre-elie.me"
+  },
+  "description": "decode html entities in strings",
+  "contributors": [ 
+    {
+      "name": "Pierre-Élie Fauché",
+      "email": "github@pierre-elie.me"
+    } 
+  ],
+  "main": "htmlentities",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pierreliefauche/htmlentities.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/pierreliefauche/htmlentities.js/issues"
+  },
+  "keywords": [
+    "html",
+    "entities",
+    "entity",
+    "string"
+  ],
+  "dependencies" : {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "bundleDependencies": [
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+}
