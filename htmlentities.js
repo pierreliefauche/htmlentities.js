@@ -267,7 +267,7 @@ var replaceByCode = function(all, code) {
       code = code.substr(1);
     }
     else {
-      code = parseInt(code).toString(16);
+      code = parseInt(code,10).toString(16);
     }
     while(code.length<4) code = '0'+code;
     eval("character = '\\u"+code+"'");
